@@ -1,0 +1,147 @@
+.main-text,.main-text p{
+text-align:center;
+}
+.main-text{
+position:absolute;
+top:0;
+width:100%;
+color:#fff;
+padding-top:150px;
+  font-size:64px;
+}
+  
+  .main-text2 {
+  font-size:48px;
+  }
+.main-text p{
+font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+content:&quot;&quot;;
+font-size:35px;
+text-shadow:#C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px;
+display:none;
+}
+.main-text .main-text2:after{
+content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirV2sWFJ9m8qqs5kdkeiyswn3p-o62XJSsxzSZejx4mFxm5HRpfwAkfh9kAor2b_Pzpth9ul4djI5MYPa2OJwmNIQA0he04oy-gc1NNC_Yz5cWb6HAI03HH-EMCXlyuA2ZsBpgEoJkJ5c14G8lUBkrzgJ-8Q8Vq6pMQdTlzAaToNEZMhezINA5jz_LTR0r/s16000/%EC%BA%90%EC%8A%AC%EB%A1%9C%EA%B3%A0.png");
+font-size: 51px;
+text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+color: #FAECC5;
+filter: drop-shadow(1px 1px 1px #000);
+
+ 
+}
+@keyframes neon-flicker{
+0%{
+text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+}
+100%{
+text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+}
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/rltzhdls/qlc@main/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-date span{
+
+background:rgba(18,18,18,0.6);
+font-size:32px;
+color:#fff;
+word-break:keep-all;
+word-wrap:break-word;
+border-radius:15px;
+
+padding:10px 30px;
+font-family:'HeirofLightBold';
+
+}
+.main-date1 span:after {
+display: block;
+content: &quot;&quot;;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(135deg, rgba(255, 241, 176, 0), rgba(255, 241, 176, 0) 30%, #ffffe5 50%, rgba(255, 241, 176, 0) 65%, rgba(255, 241, 176, 0));
+background-size: 400% 400%;
+background-position: 100% 70%;
+border-radius: 0;
+opacity: .4;
+animation: loopAni 4s ease Infinite;
+mix-blend-mode: overlay;
+}
+@keyframes loopAni {
+0% {
+background-position: 100% 70%
+}
+70% {
+background-position: 100% 70%
+}
+to {
+background-position: 0 20%
+}
+}
+
+.section-promotion .section-promotion__list{
+height:650px!important
+}
+
+.section-promotion .section-promotion__list li{
+top:0px;
+
+}
+@media screen and (max-width:1024px){
+.section-promotion .section-promotion__list li{
+top:0;
+}
+.main-text{
+padding-top:0px !important;
+}
+.main-text1:after{
+font-size:20px;
+}
+.main-text, .main-text p {
+padding-left:20px !important;
+}
+.main-text .main-text2:after{
+font-size: 50px;
+position: absolute;
+zoom: 50%;
+left: 80px;
+top: 0px;
+}
+.main-text3 {
+padding-top:100px;
+}
+.main-text3 span {
+font-size:15px;
+}
+.main-date span{
+font-size:15px;
+}
+.section-promotion .section-promotion__list{
+height:230px!important
+}
+.section-promotion{
+top:0;
+padding-top:70px !important;
+}
+#showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+height:100px!important
+}
+#showsidebar3{
+bottom:36%!important
+}
+#showsidebar2{
+bottom:22%!important
+}
+#showsidebar1{
+bottom:8%!important
+}
+}
